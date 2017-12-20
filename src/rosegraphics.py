@@ -548,6 +548,7 @@ class _Shape(object, metaclass=__FreezeClass__):
             window_or_canvas = window_or_canvas.initial_canvas
         window_or_canvas._draw(self)
 
+
     def detach_from(self, rose_canvas):
         """
         'undraws' this Shape.  More precisely:
